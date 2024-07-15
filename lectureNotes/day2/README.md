@@ -1,10 +1,8 @@
 - Java'da String'ler değiştirilemez (immutable).  Herhangi bir değişiklik yapıldığında yeni bir String oluşturulur.
 - equals ile değişken değerini kontrol ederiz
     
-    <p >
-	<img alt="jvmMemory" src="../../image/jvmMemory.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
+    <img alt="jvmMemory" src="../../image/jvmMemory.png" width="500">
+  
     
 - new ile oluşturduğumuzda her zaman yeni nesne oluşturulur.
 - Hafızada aynı değere sahip bir `String` varsa, mevcut değere referans verilir ve yeni bir nesne oluşturulmaz.
@@ -61,21 +59,15 @@ public class Main {
 - `static`, veri paylaşımını ve belirli işlemlerin sınıf düzeyinde yönetilmesini sağlamak için önemli bir araçtır.
 
 ## ***Collections***
-- 
-  <p >
-	<img alt="Collections" src="../../image/Collections.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
+-  <img alt="Collections" src="../../image/Collections.png" width="500">
+  
 
 ### ArrayList
 
 - Eleman ekledikçe boyutunu otomatik olarak artırır. Bu, sabit boyutlu dizilerin aksine daha esnek bir yapı sağlar.
 - Kolay eleman ekleme/çıkarma ve hızlı rastgele erişim özellikleri ile güçlü bir koleksiyon yapısıdır. Ancak, sıklıkla ekleme ve çıkarma yapılacaksa, `LinkedList` daha uygun bir seçenek olabilir.
     
-    <p >
-	<img alt="arrayList" src="../../image/arrayList.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
+	<img alt="arrayList" src="../../image/arrayList.png" width="500">
     
 - ArrayList<Object> olarak tanımlanırsa farklı türdeki nesneleri alabilir.
 - ArrayList<String> olarak tanımlanırsa sadece String türünde nesne eklenir.
@@ -87,10 +79,8 @@ public class Main {
 - Eleman sayısı dinamiktir.
 - `LinkedList`, dinamik boyut, hızlı ekleme/çıkarma işlemleri ve bağlantılı düğüm yapısı ile güçlü bir koleksiyon yapısıdır. Ancak, rastgele erişim ihtiyacı varsa `ArrayList` daha iyi bir seçenek olabilir.
     
-    <p >
-	<img alt="linkedList" src="../../image/linkedList.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
+    
+	<img alt="linkedList" src="../../image/linkedList.png" width="500">
     
 
 ### HashSet

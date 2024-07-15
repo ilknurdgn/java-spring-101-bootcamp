@@ -3,10 +3,9 @@
 - Java, JVM (Java Virtual Machine) üzerinde çalıştığı için platform bağımsız ve taşınabilir bir dildir.
     
 
-    <p >
-	<img alt="wora" src="../../image/wora.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
+    
+	<img alt="wora" src="../../image/wora.png" width="500">
+  
     
 - Java kodları doğrudan makine koduna çevrilmez, JVM üzerinde çalıştırılır.
 
@@ -14,10 +13,9 @@
 
 - Programcı, Java dilinde bir kaynak kod dosyası (.java) yazar.  Java derleyicisi (`javac`) kullanılarak kaynak kod derlenir. Bu işlem, `.java` dosyasını bayt kodu içeren `.class` dosyasına dönüştürür. JVM (Java Virtual Machine), bayt kodunu alır ve çalıştırır. Bu aşamada, JVM bayt kodunu makine koduna dönüştürür ve program çalıştırılır.
 
-  <p >
-	<img alt="compiedAndInterpreted" src="../../image/compiedAndInterpreted.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
+ 
+	<img alt="compiedAndInterpreted" src="../../image/compiedAndInterpreted.png" width="500">
+ 
 
 - Java kodları hem derlenir (compiled) hem de yorumlanır (interpreted). Bu sayede farklı platformlarda çalışabilir.
 - JVM → JRE → JDK (içten dışa doğru)
@@ -26,11 +24,9 @@
 - ***JDK* (Java Development Kit)**:  Java geliştirme kitidir ve Java uygulamalarını geliştirmek, derlemek ve çalıştırmak için gerekli olan tüm araçları içerir. JDK, JRE'yi içerir ve ek olarak geliştiricilerin ihtiyaç duyduğu araçları barındırır.
 
 ## ***Java’da Veri Tipleri***
-- 
-  <p >
-	<img alt="dataTypes" src="../../image/dataTypes.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
+-
+	<img alt="dataTypes" src="../../image/dataTypes.png" width="500">
+  
 
  - ***Primitive Types (İlkel Veri Tipleri):***
     
@@ -46,14 +42,9 @@
     
     *ÖRN: String, Array, Class*
     
-    ![Java'da `int` veri tipi 32 bittir ve değeri -2^31 ile (2^31)-1 arasındadır. Bu aralık, toplamda 2^32 farklı değer içerir. Bu aralığın hesaplanma mantığı şu şekildedir:
-    `int` veri tipinde 1 bit işaret biti olarak kullanılır. Bu bit, sayının pozitif mi yoksa negatif mi olduğunu belirler.
-    Geriye kalan 31 bit ise sayının büyüklüğünü temsil eder.
-    Pozitif sayılar için aralık 0'dan başlar, bu yüzden pozitif sayılar için en yüksek değer 2^31 - 1 olur.
-    Negatif sayılar için en düşük değer -2^31 olur.]( <p >
-	<img alt="data" src="../../image/data.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">)
-</p>
+   
+	<img alt="data" src="../../image/data.png" width="500" >
+
     
     Java'da `int` veri tipi 32 bittir ve değeri -2^31 ile (2^31)-1 arasındadır. Bu aralık, toplamda 2^32 farklı değer içerir. Bu aralığın hesaplanma mantığı şu şekildedir:
     `int` veri tipinde 1 bit işaret biti olarak kullanılır. Bu bit, sayının pozitif mi yoksa negatif mi olduğunu belirler.
@@ -75,10 +66,8 @@
     - Java, kullanılmayan nesneleri otomatik olarak temizlemek için Garbage Collector kullanır.
 - **Garbage Collector(Çöp Toplayıcı):** heap bellekteki kullanılmayan nesneleri otomatik olarak temizler.
     
-    <p >
-	<img alt="javaMemory" src="../../image/javaMemory.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
+
+	<img alt="javaMemory" src="../../image/javaMemory.png" width="500">
 
     
 - Java'da tüm argümanlar değer olarak geçirilir.(Pass by Value)
