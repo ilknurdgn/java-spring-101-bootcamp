@@ -1,7 +1,7 @@
 - Java'da String'ler değiştirilemez (immutable).  Herhangi bir değişiklik yapıldığında yeni bir String oluşturulur.
 - equals ile değişken değerini kontrol ederiz
     
-    <img alt="jvmMemory" src="../../image/jvmMemory.png" width="500">
+    <img alt="jvmMemory" src="../../../image/jvmMemory.png" width="500">
   
     
 - new ile oluşturduğumuzda her zaman yeni nesne oluşturulur.
@@ -59,7 +59,7 @@ public class Main {
 - `static`, veri paylaşımını ve belirli işlemlerin sınıf düzeyinde yönetilmesini sağlamak için önemli bir araçtır.
 
 ## ***Collections***
--  <img alt="Collections" src="../../image/Collections.png" width="500">
+-  <img alt="Collections" src="../../../image/Collections.png" width="500">
   
 
 ### ArrayList
@@ -67,7 +67,7 @@ public class Main {
 - Eleman ekledikçe boyutunu otomatik olarak artırır. Bu, sabit boyutlu dizilerin aksine daha esnek bir yapı sağlar.
 - Kolay eleman ekleme/çıkarma ve hızlı rastgele erişim özellikleri ile güçlü bir koleksiyon yapısıdır. Ancak, sıklıkla ekleme ve çıkarma yapılacaksa, `LinkedList` daha uygun bir seçenek olabilir.
     
-	<img alt="arrayList" src="../../image/arrayList.png" width="500">
+	<img alt="arrayList" src="../../../image/arrayList.png" width="500">
     
 - ArrayList<Object> olarak tanımlanırsa farklı türdeki nesneleri alabilir.
 - ArrayList<String> olarak tanımlanırsa sadece String türünde nesne eklenir.
@@ -80,7 +80,7 @@ public class Main {
 - `LinkedList`, dinamik boyut, hızlı ekleme/çıkarma işlemleri ve bağlantılı düğüm yapısı ile güçlü bir koleksiyon yapısıdır. Ancak, rastgele erişim ihtiyacı varsa `ArrayList` daha iyi bir seçenek olabilir.
     
     
-	<img alt="linkedList" src="../../image/linkedList.png" width="500">
+	<img alt="linkedList" src="../../../image/linkedList.png" width="500">
     
 
 ### HashSet
