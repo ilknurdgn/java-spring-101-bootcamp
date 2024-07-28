@@ -19,7 +19,6 @@
 - **boolean retainAll(Collections<E> c) :** Parametre olarak verilen liste ile collection içerisindeki elemanları aynı tutar . Yani parametre olarak verilen listede olmayan elemanlar collection içerisinde çıkartılır.
 
 ## 1. Set<E>
----
 
 ### **HashSet<E>**
 
@@ -114,7 +113,6 @@ public class TreeSetExample {
 
 ## 2. List<E>
 
----
 
 List’in karakteristik özellikleri tekrarlı elementlere izin vermesi, elementleri ekleme sırasına göre tutması ve istediğimiz index’e element eklememize izin vermesidir.
 
@@ -206,7 +204,6 @@ Vector, nadiren kullanılan bir classtır. Boyutunu otomatik olarak yönetir. Bi
 
 ## 3. Map <K, V>
 
----
 
 Map interface’i collection sınıfına dahil değildir fakat benzer amaçlar taşıdığı için aynı başlık altında öğretilir. Map’ler eşleme tablolarıdır. Bir Map’te tekrarlı key olamaz. Tüm value’lar bir key ile eşlenir ve bu key ile çağrılır.
 
